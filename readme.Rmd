@@ -1,0 +1,21 @@
+---
+title: "readme"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r}
+shiny::HTML(glue::glue("<img class = 'ui avatar image' src = 'https://raw.githubusercontent.com/systats/CDN/main/static/coins2/eth.png'>"))
+
+shiny::HTML(glue::glue("<img class = 'ui avatar image' src = 'https://raw.githubusercontent.com/systats/CDN/main/static/coins2/btc.png'>"))
+
+shiny::HTML(glue::glue("<img class = 'ui avatar image' src = 'https://raw.githubusercontent.com/systats/CDN/main/static/coins/BTC.png'>"))
+
+shiny::HTML(glue::glue("<img class = 'ui avatar image' src = 'https://raw.githubusercontent.com/systats/CDN/main/static/coins/BTC2.png'>"))
+```
+
