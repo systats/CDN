@@ -16,6 +16,15 @@ shiny::HTML(glue::glue("<img class = 'ui avatar image' src = 'https://raw.github
 
 shiny::HTML(glue::glue("<img class = 'ui avatar image' src = 'https://raw.githubusercontent.com/systats/CDN/main/static/coins/BTC.png'>"))
 
+shiny::HTML(glue::glue("<img class = 'ui avatar image' src = '/static/coins/BTC.png'>"))
+
+shiny::HTML(glue::glue("<img class = 'ui avatar image' src = '/static/coins/BTC2.png.jpg'>"))
+
 shiny::HTML(glue::glue("<img class = 'ui avatar image' src = 'https://raw.githubusercontent.com/systats/CDN/main/static/coins/BTC2.png'>"))
+
+shiny::HTML(glue::glue("<img class = 'ui avatar image' src = 'https://raw.githubusercontent.com/systats/CDN/main/static/coins/BTC2.png'>"))
+
+
+shiny::HTML(glue::glue("<img class = 'ui avatar image' src = 'https://raw.githubusercontent.com/systats/CDN/main/static/coins/BTC.png.jpg'>"))
 ```
 
