@@ -20,11 +20,18 @@ shiny::HTML(glue::glue("<img class = 'ui avatar image' src = '/static/coins/BTC.
 
 shiny::HTML(glue::glue("<img class = 'ui avatar image' src = '/static/coins/BTC2.png.jpg'>"))
 
-shiny::HTML(glue::glue("<img class = 'ui avatar image' src = 'https://raw.githubusercontent.com/systats/CDN/main/static/coins/BTC2.png'>"))
+shiny::HTML(glue::glue("<img class = 'ui avatar image' src = 'https://raw.githubusercontent.com/systats/CDN/main/static/coins/BTC.png'>"))
 
 shiny::HTML(glue::glue("<img class = 'ui avatar image' src = 'https://raw.githubusercontent.com/systats/CDN/main/static/coins/BTC2.png'>"))
 
+shiny::HTML(glue::glue("<img class = 'ui avatar image' src = 'https://raw.githubusercontent.com/systats/CDN/main/static/coins/DOGE.png'>"))
 
-shiny::HTML(glue::glue("<img class = 'ui avatar image' src = 'https://raw.githubusercontent.com/systats/CDN/main/static/coins/BTC.png.jpg'>"))
+shiny::HTML(glue::glue("<img class = 'ui avatar image' src = 'https://raw.githubusercontent.com/systats/CDN/main/static/coins/ADA.png'>"))
 ```
+
+
+```{r}
+shiny::HTML(glue::glue("<img class = 'ui avatar image' src = 'static/stocks/FB.png'>"))
+```
+
 
